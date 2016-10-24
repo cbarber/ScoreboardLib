@@ -1,4 +1,41 @@
-.idea/
-output/
-target/
-ScoreboardLib.iml
+*.properties
+*.class
+.settings
+.classpath
+.project
+target
+testing
+
+# Package Files #
+*.jar
+!libs/**/*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle
+build
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+## File-based project format:
+*.iws
+*.iml
+.idea
