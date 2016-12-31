@@ -14,5 +14,5 @@ repositories {
 }
 
 dependencies {
-  compile name: 'spigot-1.11'
+  compile name: 'spigot-1.11.2'
 }
