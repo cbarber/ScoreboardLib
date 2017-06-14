@@ -6,13 +6,13 @@ version = '1.0.1-SNAPSHOT'
 
 description = 'ScoreboardLib'
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
   maven { url "http://repo.maven.apache.org/maven2" }
 }
 
 dependencies {
-  compile name: 'spigot-1.10.2'
+  compile name: 'spigot-1.12'
 }
