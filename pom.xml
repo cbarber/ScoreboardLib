@@ -36,11 +36,19 @@
         </dependency>
     </dependencies>
 
+    <pluginRepositories>
+        <pluginRepository>
+            <id>synergian-repo</id>
+            <url>https://raw.github.com/synergian/wagon-git/releases</url>
+        </pluginRepository>
+    </pluginRepositories>
+
     <distributionManagement>
-        <snapshotRepository>
-            <id>nexus</id>
-            <url>http://repo.tigerhix.me/content/repositories/snapshots</url>
-        </snapshotRepository>
+        <repository>
+            <id>minecraftpotpie</id>
+            <name>MinecraftPotPie</name>
+            <url>git:releases://git@github.com:minecraftpotpie/Plugins.git</url>
+        </repository>
     </distributionManagement>
 
     <build>
@@ -71,6 +79,13 @@
                 </configuration>
             </plugin>
         </plugins>
+        <extensions>
+            <extension>
+                <groupId>ar.com.synergian</groupId>
+                <artifactId>wagon-git</artifactId>
+                <version>0.2.5</version>
+            </extension>
+        </extensions>
     </build>
 
 </project>
